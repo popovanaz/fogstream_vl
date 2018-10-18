@@ -1,0 +1,5 @@
+1) SELECT model, speed, hd, price FROM PC WHERE price < 500;
+2) SELECT maker FROM Product WHERE type = 'Printer';
+3) SELECT model, ram,  FROM PC WHERE price > 1000; 
+4) SELECT * FROM Printer WHERE color='Y';
+5) SELECT model, speed, hd FROM PC WHERE (cd='12x' or cd='24x') OR price < 600;
